@@ -13,8 +13,10 @@ body {
     font-size: 14px;
     background-color: var(--darkcyan);
     background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
-    background-position: top -360px left -100px, bottom -360px right -100px;
+    background-position: top -25rem left -8rem, bottom -25rem right -8rem;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
 }
 
 main {
